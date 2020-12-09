@@ -34,12 +34,12 @@ This function will first clear all color palette entries to black, then set only
 
 ### Function 2: Gradually Expose All Palette Entries
 ![Function 2](README_Attachments/fill-color.png)
-This function will first clear all color palette entries to black, then gradually set each palette entry to white, until all entries is white. 
+This function will first clear all color palette entries to black, then gradually set each palette entry to white, until all entries are white. 
 
 
 ### Function 3: Gradually Remove All Palette Entries
 ![Method 3](README_Attachments/strip-color.png)
-This function will first set all color palette entries to white, then gradually clear each palette entry to black, until all entries is black. 
+This function will first set all color palette entries to white, then gradually clear each palette entry to black, until all entries are black. 
 
 
 ### Remarks
