@@ -3,7 +3,7 @@ STACK The Flag CTF - Miscellaneous Challenge 7: Where's the Flag. This Repo focu
 
 
 ## Introduction
-This is a partial solution to Where's the Flag in GovTech's STACK the flag CTF 2020. The first part of the solution requires one to extract a .png file from within another .png file. image0.png in this repo is the extracted .png file, which contains the flag, requiring steganography technique to expose the flag. 
+This is a partial solution to Where's the Flag in GovTech's STACK the flag CTF 2020. The first part of the solution requires one to extract a .png file from within another .png file. ```image0.png``` in this repo is the extracted .png file, showing a picture of a literal flag, which contains the flag that requires steganography technique to expose it. 
 
 This solution is adapted from [Plaid CTF 2014: doge_stege write up by Steven of the HacknamStyle CTF team](https://github.com/ctfs/write-ups-2014/tree/master/plaid-ctf-2014/doge-stege) and improved for ease of usage.
 
