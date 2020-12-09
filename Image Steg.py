@@ -66,8 +66,9 @@ def swap_palette2(filename, PLTELen, n, increDecre):
                 f.seek(length+4, os.SEEK_CUR)
 
 if __name__ == "__main__":
-    filename = input("Input .png file name (with .png): ")
 
+    PLTELen = 0
+    filename = input("Input .png file name (with .png): ")
     #This portion aims to get the number of colors the image has; 
     #The lesser color the image has, the less image it would be required to generate.
     with open(filename, 'r+b') as f:
@@ -88,6 +89,9 @@ if __name__ == "__main__":
             else:
                 f.seek(length+4, os.SEEK_CUR)
         f.close()
+    if PLTELen == 0:
+        print("No color palette found! Program Terminating...")
+        exit()
 
     #Creates Result Folder
     if not os.path.exists('res'):
